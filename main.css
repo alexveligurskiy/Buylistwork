@@ -1,0 +1,347 @@
+.bl-background {
+    background: #cdcbcb;
+    padding: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+    width: auto;
+    display: block;
+    max-width: 100%;
+    padding-top: 100px;
+    min-width: 600px;
+    overflow-x: hidden
+}
+.bl.secondbackground{
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 0;
+    box-sizing: inherit;
+    overflow-x: hidden;
+    min-width: 600px;
+}
+
+.bl-list {
+    background: white;
+    width: 65%;
+    margin: 0;
+    box-shadow: none;
+    padding: 2px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: inherit;
+    
+}
+.bl-row{
+    margin-bottom: 0;
+    margin-top: 0;
+    flex-direction: column;
+    position: relative;
+    margin: 1px;
+    border: 1px solid rgba(34,36,38,.15);
+    box-sizing: inherit;
+    display: block;
+}
+.bl-find {
+    width: auto;
+    font-size: 1px;
+    max-width: 100%;
+    position: relative;
+    box-sizing: inherit;
+    display: block;
+}
+.bl-input {
+    display: flex;
+    font-size: 1px;
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: inherit;
+    outline: 0;
+    width: 100%;
+}
+.bl-inputtext{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin: 0;
+    outline: 0;
+    line-height: 1px;
+    padding: 4px;
+    font-size: 20px;
+    border-radius: 1px;
+    width: 85%;
+    vertical-align: top;
+    text-align: left;
+    
+        
+}
+.button primary {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    align-items: center;
+    width: %;
+    
+    
+    vertical-align: middle;
+    text-align: center;
+    
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    appearance: button;
+    overflow: visible;
+    box-sizing: inherit;
+}
+.bl-mainrow {
+    width: auto;
+    position: relative;
+    padding: 1px;
+    margin-top: 0;
+    box-sizing: inherit;
+    line-height: 1px;
+    font-size: 14px;
+}
+.bl-inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 0;
+    line-height: 1px;
+    font-size: 14px;
+    box-sizing: inherit;
+}
+.bl-product {
+    width: 25%;
+    text-align: left;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    position: relative;
+    display: inline-block;
+    padding-left: 1px;
+    padding-right: 1px;
+    vertical-align: middle;
+    box-sizing: inherit;
+    line-height: 100%;
+    font-size: 30px;
+    
+}
+.bl-count {
+    width: 40%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    position: relative;
+    display: inline-block;
+    padding-left: 1px;
+    padding-right: 1px;
+    vertical-align: middle;
+    box-sizing: inherit;
+    line-height: 1px;
+    font-size: 14px;
+    text-align: center;
+}
+/*Кнопки*/
+.minus-button{
+    background-color: #DB2828;
+    color: #FFF;
+    border-radius: 10px;   
+    padding: 1em 1em 1.15em;
+    cursor: pointer;
+    opacity: .45;
+    display: inline-block;
+    outline: 0;
+    vertical-align: middle;
+    line-height: 1px;
+    text-align: center;
+    overflow: visible;
+    font: inherit;
+    align-items: flex-start;
+}
+.minus-icon{
+    width: 1em;
+    vertical-align: baseline;
+    opacity: .9;
+    margin: 0;
+    height: 8px;
+    font-family: Icons;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+    text-decoration: inherit;
+}
+/*Кнопки*/
+.bl-label{
+    display: inline-block;
+    line-height: 1;
+    vertical-align: baseline;
+    margin: 0 .2px;
+    background-color: #E8E8E8;
+    background-image: none;
+    padding: 5px 5px;
+    color: rgba(0,0,0,.6);
+    text-transform: none;
+    font-weight: 700;
+    border: 0 solid transparent;
+    border-radius: .28571429rem;
+    transition: background .1s ease;
+    text-align: center;
+}
+/*Кнопки*/
+.plus-button{
+    background-color: #21BA45;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 1em 1em 1.15em;
+    cursor: pointer;
+    display: inline-block;
+    outline: 0;
+    vertical-align: middle;
+    text-align: center;
+    overflow: visible;
+    font: inherit;    
+    align-items: flex-start;
+}
+.plus-icon{
+ width: 1em;
+    vertical-align: baseline;
+    opacity: .9;
+    margin: 0;
+    height: 8px;
+    font-family: Icons;
+    font-weight: 400;
+    text-align: center;
+    display: inline-block;
+    text-decoration: inherit;
+}
+.bl-buttons {
+    width: 33%;       
+    position: relative;
+    display: inline-block;
+    padding-left: 1px;
+    padding-right: 1px;
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 14px;
+    text-align: right;
+    padding-top: .5em;
+    padding-bottom: 0;
+    box-sizing: inherit;
+}
+.buy-button{
+    width: 30%;
+    cursor: pointer;
+    box-shadow: 0 -.3em 0 0 rgba(34,36,38,.15) inset;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: middle;
+    background: linear-gradient(transparent,rgba(0,0,0,.05)) #F8F8F8;
+    color: rgba(0,0,0,.6);
+    padding: 1em 2em 1.15em;
+    line-height: 1em;
+    text-align: center;
+    border-radius: .4em;
+    overflow: visible;
+        box-sizing: inherit;
+    align-items: flex-start;
+}
+.delete-button{
+    width: 10%;
+    box-shadow: 0 -.3em 0 0 rgba(34,36,38,.15) inset;
+    background-color: #DB2828;
+    color: #FFF;
+    padding: 1em 1em 1.15em;
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: middle;
+    line-height: 1em;
+    text-align: center;
+    border-radius: .4em;
+    overflow: visible;
+    box-sizing: inherit;
+    align-items: flex-start;
+}
+.remove-icon{
+    background-color: #DB2828;
+    color: #FFF;
+    text-shadow: none;
+    background-image: none;
+    content: "\f00d";
+    opacity: .9;
+    margin: 0;
+    vertical-align: top;
+    transition: opacity .1s ease;
+        font-size: 1em;
+        width: 1.18em;
+    font-family: Icons;
+    font-weight: 400;
+        box-sizing: inherit;
+    text-align: center;
+    text-decoration: inherit;
+    speak: none;
+    backface-visibility: hidden
+}
+.bl-bought {
+   background: white;
+    width: 30%;
+    margin-left: 4%;
+    box-shadow: none;
+    padding: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: inherit;
+    min-width: 180px;
+    
+}
+.bl-segment{
+    margin-bottom: 0;
+    margin-top: 0;
+    flex-direction: column;
+    position: relative;
+    margin: 1px;
+    border: 1px solid rgba(34,36,38,.15);
+    display: block;
+    box-sizing: inherit;
+    font-size: 14px;
+}
+.bl-title{
+    border: 1px solid rgba(34,36,38,.15);
+    margin-top: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 0;
+    margin: 0;
+    width: auto;
+    box-shadow: none;
+    
+    position: relative;
+    background: #FFF;
+    padding: 1px;
+    box-sizing: inherit;
+    display: block;
+}
+.bl-notbought{
+    
+}
+
+.stats-bought{
+    box-sizing: inherit;
+    display: block;
+}
+
+/*Кнопки*/
