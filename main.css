@@ -171,7 +171,7 @@ body{
     box-sizing: inherit;
 }
 .tooltip{
-     opacity: 0.8;
+    opacity: 0.0;
     position: fixed;
     width: 100px;
     height: 20px;
@@ -182,9 +182,13 @@ body{
     background-color:cornflowerblue;
     z-index: 1;
     text-align: center;
+    transition-duration:1s;
 }
 .delete-button:hover .tooltip{
+    transition-duration:1s;
+    opacity: 0.8;
     visibility: visible;
+    
 }
 .bl-bought {
     width: 39%;
@@ -246,6 +250,7 @@ body{
     left: 60px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    transition-duration:1s;
 }
 .badge:hover{
     background-color:cornflowerblue;
