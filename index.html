@@ -7,22 +7,19 @@
 </head>
 <body>
 <div class="bl-background">
-    <div class="bl.secondbackground">
         
 <!!!!!!!!!!!!!!>
         
         <div class="bl-list">
             <div class="bl-row">
-                <div class="bl-find">
-                    <div class="bl-input">
-                        <input class="bl-inputtext" type="text" placeholder="Назва товару">
-                        <button class="button primary">Додати</button>
-                    </div>
+                <div class="bl-find">  
+                    <input class="bl-inputtext" type="text" placeholder="Назва товару">
+                    <button class="button-primary">Додати</button>
                 </div>
                 <div class="bl-mainrow" data-class="edit-mode">
                     <div class="bl-inner">
                         <div class="bl-product">
-                            Помідори
+                            <p id="product">Помідори</p>
                         </div>
                         <div class="bl-count">
                             <button class="minus-button"><i class="minus icon"></i>-</button>
@@ -31,7 +28,9 @@
                         </div>
                         <div class="bl-buttons">
                             <button class="buy-button">Куплено</button>
-                            <button class="delete-button" title="Видалити"><i class="remove-icon"></i>X</button>
+                            <button class="delete-button" title="Видалити">X
+                                <span class="tooltip">To delete item</span>
+                            </button>
                             
                         </div>
                     </div>    
@@ -39,7 +38,7 @@
                 <div class="bl-mainrow" data-class="edit-mode">
                     <div class="bl-inner">
                         <div class="bl-product">
-                            Баклажани
+                            <p id="product">Баклажани</p>
                         </div>
                         <div class="bl-count">
                             <button class="minus-button"><i class="minus icon"></i>-</button>
@@ -48,7 +47,9 @@
                         </div>
                         <div class="bl-buttons">
                             <button class="buy-button">Куплено</button>
-                            <button class="delete-button" title="Видалити"><i class="remove-icon"></i>X</button>
+                            <button class="delete-button" title="Видалити">X
+                                <span class="tooltip">To delete item</span>
+                            </button>
                             
                         </div>
                     </div>    
@@ -56,7 +57,7 @@
                 <div class="bl-mainrow" data-class="edit-mode">
                     <div class="bl-inner">
                         <div class="bl-product">
-                            Картопля
+                            <p id="product">Картопля</p>
                         </div>
                         <div class="bl-count">
                             <button class="minus-button"><i class="minus icon"></i>-</button>
@@ -65,7 +66,9 @@
                         </div>
                         <div class="bl-buttons">
                             <button class="buy-button">Куплено</button>
-                            <button class="delete-button" title="Видалити"><i class="remove-icon"></i>X</button>
+                            <button class="delete-button" title="Видалити">X
+                                <span class="tooltip">To delete item</span>
+                            </button>
                             
                         </div>
                     </div>    
@@ -78,8 +81,8 @@
 <!!!!!!!!!!!!!!>
         
         <div class="bl-bought">
-            <div class="bl-segment">
-                <div class="bl-title"><h1>Залишилося</h1></div>
+            
+                <div class="bl-title">Залишилося</div>
                 <div class="bl-title">
                     <div class="bl-notbought">
                         <span class="stats-label">
@@ -100,15 +103,28 @@
                         </span>
                     </div>
                 </div>
-                <div class="bl-title"><h1>Куплене</h1></div>
+                <div class="bl-title">Куплено</div>
                 <div class="bl-title">
                     <div class="stats-bought"></div>
                 </div>
-            </div>    
+              
         </div>
-        
-    </div>
 </div>
-
+<div class="printBadge">
+    
+</div>
+<div class="badge">
+    <p class="p-buy">Buylist</p>
+    <p>Made by:</p>
+    <p>Veligurskiy Olexander</p>
+</div>    
+    
 </body>
 </html>
+
+
+
+
+
+
+
