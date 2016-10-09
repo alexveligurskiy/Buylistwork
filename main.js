@@ -138,7 +138,7 @@ $(function() {
         }
     });
 
-    addOneItem("Сир");
-    addOneItem("Бургер");
-    addOneItem("Coca-Cola");
+    addOneItem("Milk");
+    addOneItem("Potato");
+    addOneItem("Tomato");
 });
