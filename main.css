@@ -1,4 +1,6 @@
-body{
+html {
+  min-width: 50px;
+}body{
     background: gainsboro;
     font-family: fantasy;
     font-size: 14px;
@@ -24,172 +26,18 @@ body{
     height: auto;
     box-sizing: border-box;
 }
-.bl-row{
-    width:auto;
-    margin: 1px;
+.bl-row {
+    background: white;    
+    float: left;
+    width: 100%; 
+    height: 100%;
     height: auto;
-}
-.bl-find {
-    width: auto;
+    min-width: 500px;;
+    margin-right: 30px;
     border-radius: 10px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    border: 1px solid rgba(34,36,38,.15);
-    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.bl-inputtext{
-    
-    border-radius: 10px;
-    width: 60%;
-    vertical-align: top;
-    text-align: left;
-    height: 30px;    
-    font-size: 20px;
-    display: inline-block;
-    outline: 0;
-}
-.button-primary {
-    width: 100px;
-    background-color: darkcyan;
-    color: #FFF;
-    text-align: center;
-    appearance: button;
-    height: 36px;
-    cursor: pointer;
-    border-radius: 10px; 
-    display: inline-block;
-    outline: 0;
-}
-.bl-mainrow {
-    width: auto;
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
-.bl-inner {
-    display: flex;
-    border: 1px solid rgba(34,36,38,.15);
-    border-radius: 10px;
-}
-.bl-product {
-    width: 33%;
-    margin: 1px;
-    
-    
-}
-#product{
-    margin: 0;
-    font-family: sans-serif;
-    font-size: 20px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
-.bl-count {
-    width: 20%;
-    margin: 1px;
-    
-    vertical-align: middle;
-    
-    line-height: 1px;
-    font-size: 14px;
-    
-}
-
-/*Кнопки*/
-.minus-button{
-    margin-top: 4px;
-    margin-left: 8px;
-    background-color: #DB2828;
-    color: #FFF;
-    border-radius: 100px;   
-    padding: 1em 1em 1.15em;
-    cursor: pointer;
-    outline: 0;
-    line-height: 1px;
-    text-align: center;
-    overflow: visible;
-}
-.minus-icon{
-    font-family: Icons;
-}
-/*Кнопки*/
-.bl-label{
-    line-height: 0.9;
-    background-color: #E8E8E8;
-    padding: 5px 5px;
-    color: rgba(0,0,0,.6);
-    border-radius: 3px;
-    text-align: center;
-}
-/*Кнопки*/
-.plus-button{
-    background-color: #21BA45;
-    color: #FFF;
-    border-radius: 100px;
-    padding: 1em 1em 1.15em;
-    cursor: pointer;
-    outline: 0;
-    text-align: center;
-    overflow: visible;
-    line-height: 1px;
-}
-.plus-icon{
-    font-family: Icons;
-}
-.bl-buttons {
-    width: 49%;
-    margin: 1px;
-    font-size: 14px;
-    text-align: right;
-}
-.buy-button{
-    width: 30%;
-    cursor: pointer;
-    box-shadow: 0 -.3em 0 0 rgba(34,36,38,.15) inset;
-    display: inline-block;
-    outline: 0;
-    vertical-align: middle;
-    background: linear-gradient(transparent,rgba(0,0,0,.05)) #F8F8F8;
-    color: rgba(0,0,0,.6);
-    padding: 1em 1em 1.15em;
-    text-align: center;
-    border-radius: .4em;
-    box-sizing: inherit;
-}
-.delete-button{
-    margin-right: 2px;
-    width: 10%;
-    box-shadow: 0 -.3em 0 0 rgba(34,36,38,.15) inset;
-    background-color: #DB2828;
-    color: #FFF;
-    padding: 1em 1em 1.15em;
-    cursor: pointer;
-    outline: 0;
-    vertical-align: middle;
-    text-align: center;
-    border-radius: .4em;
-    box-sizing: inherit;
-}
-.tooltip{
-    opacity: 0.0;
-    position: fixed;
-    width: 100px;
-    height: 20px;
-    font-size: 14px;
-    border-width: 5px;
-    visibility: hidden;
-    border-radius: 10px;
-    background-color:cornflowerblue;
-    z-index: 1;
-    text-align: center;
-    transition-duration:1s;
-}
-.delete-button:hover .tooltip{
-    transition-duration:1s;
-    opacity: 0.8;
-    visibility: visible;
-    
-}
 .bl-bought {
     width: 39%;
     background: white;
@@ -198,48 +46,387 @@ body{
     flex-grow: 1;
     margin: 2px;
     border-radius: 10px;
-}
-.bl-title{
-    position: relative;
-    height: 40px;
-    border: 1px solid rgba(34,36,38,.15);
-    margin: 1px;
-    border-radius: 10px;
-    width: auto;
-    background: #FFF;
-    box-sizing: inherit;
-    display: block;
-    text-align: center;
-}
-.bl-notbought{
-    text-align: center;
-    position: relative;
-    display: inline-block;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-.stats-bought{
-    height: 40px;
-    box-sizing: inherit;
-    display: block;
+.bl-inner{    
+    width: 100%;
+    height: auto;
+    padding-left: 10px; 
+    padding-right: 10px; 
+    border-top: 1px solid;
+    border-top-color: #cdcbcb;
+   font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
-.stats-label{
-    font-size: 10px;
-    display: inline-block;
-    vertical-align: baseline;
+.state-not-bought .notbuy-button{
+    display: none;
+}
+
+.state-bought .buy-button, .state-bought .delete-button, .state-bought .minus-button, .state-bought .plus-button{
+    display: none;
+}
+
+.state-bought .bl-label{
+    box-sizing: border-box;
+    background: #E6E6E6;
+    font-size: 15px;    
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.state-bought .bl-product {
+ text-decoration: line-through;
+}
+
+.bl-product{
+    float: left;
+    width: 34%;  
+   height: 100%;   
+   padding-top: 20px;
+box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.bl-product-name{
+    width: 100%;  
+    height: 100%; 
+}
+
+.state-change-name .bl-product-name{
+    display: none;
+}
+
+.state-not-change-name .bl-change-input{
+    display: none;
+}
+
+.state-change-name .bl-change-input{
+    width: 90%;
+    height: 17px;
+    border-radius: 5px;
+}
+
+.bl-count{    
+    display: inline-block;  
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bl-buttons{
+    display: inline-block;  
+    box-sizing: border-box;  
+    float: right;   
+    width: 30%;
+    height: 100%;   
+    min-width: 150px;
+    max-width: 150px;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.bl-label{    
+    display: inline-block;    
+    margin-top: 5px;
+    background: #E6E6E6;
+    font-size: 15px;    
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+
+.plus-button {    
+    background: #21BA45;
+    border-radius: 100px;
+    height: 36px;
+    width: 36px;
+    color:white;
+    font-size: 20px;  
+    border-top: 0px;
+    border-bottom:3px solid;
+    border-left:2px solid;
+    border-right:2px solid;
+    border-bottom-color: #1b9838;
+    border-left-color: #1b9838;
+    border-right-color: #1b9838;
+}
+
+.plus-button:hover{
+  background:   #16ab39;
+}
+
+.minus-button {
+    
+    background: #DF0101;
+    border-radius: 100px;
+    height: 36px;
+    width: 36px;  
+    color:white;
+    font-size: 20px;
+    border-top: 0px;
+    border-bottom:3px solid;
+    border-left:2px solid;
+    border-right:2px solid;
+    border-bottom-color: #b20101;
+    border-left-color: #b20101;
+    border-right-color: #b20101;
+   
+}
+
+.minus-button:disabled{
+    background: #ff8080;
+     border-radius: 100px;
+    height: 36px;
+    width: 36px;  
+     color:white;
+     font-size: 20px;
+     border-top: 0px;
+    border-bottom:3px solid;
+    border-left:2px solid;
+    border-right:2px solid;
+    border-bottom-color: #ff8080;
+    border-left-color: #ff8080;
+    border-right-color: #ff8080;
     
 }
-.label-count{
-    font-size: 7px;
-    min-width: 2em;
-    min-height: 2em;
-    line-height: 2em;
-    text-align: center;
-    border-radius: 100px;
-    background-color: #F2711C;
-    color: #FFF;
-    display: inline-block;
+
+.minus-button:disabled:hover{
+    background: #ff8080;   
 }
+
+.minus-button:hover{
+background: #DF0101;
+}
+
+.buy-button{
+    width: 100px;
+    height: 40px;
+    background-color:#f2f2f2;
+    float: left;
+    margin-right: 5px;
+    border-radius: 7px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #595959;
+    border-top: 1px solid;
+    border-left: 1px solid ;
+    border-right: 1px solid;
+    border-bottom:4px solid;   
+    border-bottom-color: #cccccc;
+    border-left-color: #cccccc;
+    border-right-color: #cccccc;
+    border-top-color: #cccccc;
+}
+
+.buy-button:hover, .notbuy-button:hover{
+   background:  #BDBDBD;
+}
+
+
+.notbuy-button{
+    width: 100px;
+    height: 40px;
+    background-color:#f2f2f2;
+    float: right;
+    margin-right: 5px;
+    border-radius: 7px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #595959;
+    border-top: 1px solid;
+    border-left: 1px solid ;
+    border-right: 1px solid;
+    border-bottom:4px solid;   
+    border-bottom-color: #cccccc;
+    border-left-color: #cccccc;
+    border-right-color: #cccccc;
+    border-top-color: #cccccc;
+}
+
+.delete-button{
+    background: #DF0101;
+    height: 40px;
+    width: 40px;
+    border-radius: 7px;
+     color:white;
+     font-size: 10px; 
+     border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom:4px solid;   
+    border-bottom-color: #b20101;
+    
+}
+
+.delete-button:hover{
+    background: #8A0808;
+}
+
+.bl-find {
+    height: 75px;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 1px;
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;      
+}
+.bl-inputtext{
+    width:75%; 
+    height: 100%;
+    float: left;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box; 
+    border-top: 1px solid;
+    border-bottom:1px solid;
+    border-left:1px solid; 
+    border-bottom-color: #cccccc;
+    border-left-color: #cccccc;
+    border-top-color: #cccccc;
+    
+}   
+
+.button-primary{
+    width: 25%;
+    height: 100%;
+    float: right;
+    background-color: #2185D0;
+    color:white;
+    font-size: 15px;
+    min-width: 120px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-weight: bold; 
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom:4px solid;   
+    border-bottom-color: #1c70b0;
+}
+
+.button-primary:hover{
+     background-color: #1c70b0;
+}
+    
+
+.bl-title{
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.bl-left{  
+   padding-left: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid;
+    border-top-color: #cdcbcb;
+     border-bottom: 1px solid;
+    border-bottom-color: #cdcbcb;
+     box-sizing: border-box;
+    min-height: 30px;
+}
+
+.bl-left-item{
+    margin-top: 5px;   
+    margin-right: 5px;
+    display: inline-block;
+     background: #E6E6E6;
+    font-size: 11px;    
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.bl-left-product-name{   
+    display: inline-block;
+    font-size: 11px;    
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+.bl-left-product-count{
+    display: inline-block;
+    background:#ff6600;
+    font-size: 9px;    
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 100px;
+    color: white;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    height: 20px; 
+}
+
+.bl-done{
+    height:40%;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid;
+    border-top-color: #cdcbcb;
+    box-sizing: border-box;
+    min-height: 30px;
+}
+
+
+button{
+    position: relative;
+    
+}
+
+.button-primary::before{ 
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    width:80px;
+    height: 25px;
+    font-size: 11px;
+    border-radius: 8px;
+    display: block;
+    border: 1px solid black;
+    background-color:azure;
+    color: white;
+    transform: scale(0);
+    transition: all 300ms linear;
+    transform-origin: 50% 100%;
+    padding-top: 10px;
+    color: dimgray;
+}
+
+
+.clearfix::after {
+    visibility: hidden; 
+    display: block;
+    content:""; 
+    height: 0;
+    clear: both; 
+}
+
 
 
 .badge{
@@ -272,4 +459,24 @@ body{
     .p-buy{
         display: none;
     }
+}
+.tooltip{
+    opacity: 0.0;
+    position: fixed;
+    width: 100px;
+    height: 20px;
+    font-size: 14px;
+    border-width: 5px;
+    visibility: hidden;
+    border-radius: 10px;
+    background-color:cornflowerblue;
+    z-index: 1;
+    text-align: center;
+    transition-duration:1s;
+}
+.delete-button:hover .tooltip{
+    transition-duration:1s;
+    opacity: 0.8;
+    visibility: visible;
+    
 }
